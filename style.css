@@ -1,0 +1,117 @@
+@charset "utf=8";
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+header{
+  background: linear-gradient(90deg,#e3d34a8b 0%,rgba(227, 170, 45, 0.738)50%,#d28839d4 100%);
+  color: white;
+  text-align: center;
+  margin: 0;
+}
+
+.content{
+  display: inline-block;
+  padding: 4px 30px;
+  font-size: 16px;
+}
+
+
+
+.container{
+  background-image: url(DAE3084A-8596-49B9-86D5-5E1973210875.jpg);
+  height: 70vh;
+  background-size: cover;
+  width: 100%;
+}
+
+h2{
+  font-weight: 24px;
+  font-size: 28px;
+  line-height: 70vh;
+}
+
+img{
+  object-fit: cover;
+}
+
+.square{
+  padding: 8px 15px;
+  background: burlywood;
+  border-radius: 30px;
+  width: 520px;
+  margin: 0 auto;
+}
+
+.square:before{
+  font-family: FontAwesome;
+  content: "\f111";
+  font-size: 16px;
+  color: antiquewhite;
+}
+
+.square:after{
+  font-family: FontAwesome;
+  content: "\f111";
+  font-size: 32px;
+  color: rgb(255, 202, 132);
+}
+
+
+
+.third{
+  height: 800px;
+  overflow: hidden;
+}
+
+.second{
+  width: 100%;
+  height: 800px;
+  overflow: hidden;
+}
+
+.second:hover{
+  transform:scale(1.2,1.2);
+}
+
+
+.explanations{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.explanations1{
+  width: calc((100% - 24px) / 2);
+  overflow: hidden;
+}
+
+.explanation .red{
+  font-size: 30px;
+  color: red;
+}
+
+.explanation .line{
+  text-decoration: line-through;
+
+}
+
+p{
+  font-size: 30px;
+  font-weight: 50px;
+}
+
+button{
+  background-color: rgba(250, 101, 52, 0.571);
+  width: 120px;
+  height: 40px;
+  margin: 20px;
+  border: 10px;
+}
+
+button:hover{
+  background-color:rgba(249, 66, 42, 0.855);
+}
