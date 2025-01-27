@@ -4,15 +4,16 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>8.23課題</title>
+  <title>カフェ紹介</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="cafe.png">
 </head>
 
 <body>
   <header id="home">
     <h1>オススメカフェ~in宮城~</h1>
     <p class="content"><a href="#home" class="home1">ホーム</a></p>
-    <p class="content"><a href="#all" class="home1">商品一覧</a></p>
+    <p class="content"><a href="#all" class="home1">カフェ一覧</a></p>
     <p class="content"><a href="#inquery" class="home1">お問い合わせ</a></p>
   </header>
   <main>
@@ -23,8 +24,8 @@
       </div>
     </div>
 
-
-    <div class="explanations" id="all">
+    <h3 id="all">cafe</h3>
+    <div class="explanations">
       <div class="explanations1">
         <div class="third">
           <img src="4C101744-C698-4A4C-BE22-14ED1AAB42F5.jpg" class="second">
@@ -34,10 +35,11 @@
         <hr>
         <div class="explanation">Kero men&caramel</div>
         <div class="btn-container">
-          <button id="btn3">詳細</button>
+          <button class="btn3">詳細</button>
         </div>
-        <div id="mask" class="hidden"></div>
-        <section id="modal" class="hidden">
+        <div class="hidden mask"></div>
+        <section class="hidden modal">
+          <div class="batsu hidden">×</div>
           <p class="shop">HEY</p>
           <p class="place">〒980-0812 宮城県仙台市青葉区片平1-1-11 カタラナビル1F</p>
           <p class="place">🕑9:30~18:00(不定休)</p>
@@ -52,10 +54,11 @@
         <hr>
         <div class="explanation">タルティーヌ</div>
         <div class="btn-container">
-          <button id="btn3">詳細</button>
+          <button class="btn5">詳細</button>
         </div>
-        <div id="mask" class="hidden"></div>
-        <section id="modal" class="hidden">
+        <div class="hidden mask5"></div>
+        <section class="hidden modal5">
+          <div class="batsu5 hidden">×</div>
           <p class="shop">Adapt</p>
           <p class="place">〒980-0811 宮城県仙台市青葉区一番町2-11-12 プレジテント一番町1F</p>
           <p class="place">🕑10:00~17:00 18:00~22:00(不定休)</p>
@@ -73,10 +76,11 @@
         <hr>
         <div class="explanation">発酵御膳</div>
         <div class="btn-container">
-          <button id="btn3">詳細</button>
+          <button class="btn4">詳細</button>
         </div>
-        <div id="mask" class="hidden"></div>
-        <section id="modal" class="hidden">
+        <div class="hidden mask4"></div>
+        <section class="hidden modal4">
+          <div class="batsu4 hidden">×</div>
           <p class="shop">TOTO's cafe</p>
           <p class="place">〒980-0803 宮城県仙台市青葉区国分町1-6-15 奥田ビル3F</p>
           <p class="place">🕑月火金土日 11:00~16:00　水木 11:00~22:00(不定休)</p>
@@ -91,10 +95,11 @@
         <hr>
         <div class="explanation">3Dラテアート</div>
         <div class="btn-container">
-          <button id="btn3">詳細</button>
+          <button class="btn6">詳細</button>
         </div>
-        <div id="mask" class="hidden"></div>
-        <section id="modal" class="hidden">
+        <div class="hidden mask6"></div>
+        <section class="hidden modal6">
+          <div class="batsu6 hidden">×</div>
           <p class="shop">MythiQue</p>
           <p class="place">〒980-0021 宮城県仙台市青葉区中央2-4-11 水晶堂ビル3F</p>
           <p class="place">🕑月火水木金 11:00~20:00　土日祝 11:00~18:00(不定休)</p>
@@ -113,10 +118,11 @@
         <hr>
         <div class="explanation">スコーンのセット</div>
         <div class="btn-container">
-          <button id="btn3">詳細</button>
+          <button class="btn7">詳細</button>
         </div>
-        <div id="mask" class="hidden"></div>
-        <section id="modal" class="hidden">
+        <div class="hidden mask7"></div>
+        <section class="hidden modal7">
+          <div class="batsu7 hidden">×</div>
           <p class="shop">cafe Mozart</p>
           <p class="place">〒980-0811 宮城県仙台市青葉区一番町3-11-14 丸和ビル3F</p>
           <p class="place">🕑月火水木日 11:00~22:30　金土 11:00~23:00(不定休)</p>
@@ -131,10 +137,11 @@
         <hr>
         <div class="explanation">テリーヌチーズケーキ</div>
         <div class="btn-container">
-          <button id="btn3">詳細</button>
+          <button class="btn8">詳細</button>
         </div>
-        <div id="mask" class="hidden"></div>
-        <section id="modal" class="hidden">
+        <div class="hidden mask8"></div>
+        <section class="hidden modal8">
+          <div class="batsu8 hidden">×</div>
           <p class="shop">MIDI</p>
           <p class="place">〒982-0241 宮城県仙台市太白区秋保町湯元字釜土東28</p>
           <p class="place">🕑10:00~17:00(定休日:水曜)</p>
@@ -152,10 +159,11 @@
         <hr>
         <div class="explanation">抹茶テリーヌショコラ</div>
         <div class="btn-container">
-          <button id="btn3">詳細</button>
+          <button class="btn9">詳細</button>
         </div>
-        <div id="mask" class="hidden"></div>
-        <section id="modal" class="hidden">
+        <div class="hidden mask9"></div>
+        <section class="hidden modal9">
+          <div class="batsu9 hidden">×</div>
           <p class="shop">甘味処すずや</p>
           <p class="place">〒980-0081 宮城県仙台市青葉区一番町2-3-37</p>
           <p class="place">🕑12:00~19:00(不定休)</p>
@@ -170,10 +178,11 @@
         <hr>
         <div class="explanation">TRE</div>
         <div class="btn-container">
-          <button id="btn3">詳細</button>
+          <button class="btn10">詳細</button>
         </div>
-        <div id="mask" class="hidden"></div>
-        <section id="modal" class="hidden">
+        <div class="hidden mask10"></div>
+        <section class="hidden modal10">
+          <div class="batsu10 hidden">×</div>
           <p class="shop">Gelateria Liberta</p>
           <p class="place">〒981-3133 宮城県仙台市泉区泉中央3-34-5 グランドール泉中央3</p>
           <p class="place">🕑12:00~20:00(不定休)</p>
